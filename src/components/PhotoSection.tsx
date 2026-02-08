@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import couplePhoto1 from "@/assets/couple-photo-1.png";
-import couplePhoto2 from "@/assets/couple-photo-2.png";
-import couplePhoto3 from "@/assets/couple-photo-3.png";
+import couplePhoto1 from "../assets/couple-photo-1.png";
+import couplePhoto2 from "../assets/couple-photo-2..png";
+import couplePhoto3 from "../assets/couple-photo-3.png";
 
 const photos = [
-  { src: couplePhoto1, caption: "Our story began ✨" },
-  { src: couplePhoto2, caption: "Every moment with you 💕" },
-  { src: couplePhoto3, caption: "Forever starts here 💞" },
+  { src: couplePhoto1, caption: "Our  first photo together✨" },
+  { src: couplePhoto2, caption: "With you, everything feels right 💕" },
+  { src: couplePhoto3, caption: "My favorite place is right next to you💞" },
 ];
 
 const PhotoSection = () => {
